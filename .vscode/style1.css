@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1746104990/vector/3d-paper-clipboard-task-management-todo-check-list.jpg?s=612x612&w=0&k=20&c=o-7iI3IMEaBTS0oWZHG-YVgwcpEf8YlLdJB0qnJKMGU=);
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.toggle-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.toggle-link a:hover {
+  text-decoration: underline;
+}
+
+/* Hide both forms initially */
+.form-container {
+  display: none;
+}
+
+/* When the #signIn is targeted in the URL */
+#signIn:target {
+  display: block;
+}
+
+/* When the #signUp is targeted in the URL */
+#signUp:target {
+  display: block;
+}
+
+/* Default to showing the Sign In form if no hash is present */
+body:not(:has(:target)) #signIn {
+  display: block;
+}
+

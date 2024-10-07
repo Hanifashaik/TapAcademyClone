@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://media.istockphoto.com/id/1313429735/vector/technology-background-in-the-concept-of-circuits.jpg?s=612x612&w=0&k=20&c=wdn3KRZbPqQVwhbfmpbftEtVAMWzSRDq9wy6hFzZYO4=);
+  background-size: cover;
+}
+
+header {
+
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 70px; /* Adjust logo height */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: rgb(246, 236, 236);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(184, 227, 231, 0.2);
+  border-radius: 4px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+.hero{
+ 
+  height: 500px;
+
+}
+.box2{
+  background-color: #3f93e1;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 1600px;
+  text-align: center;
+  margin-right: 80px;
+  border-radius: 30px;
+  margin-top: 80px;
+  
+}
+#registrationForm{
+  padding-top: 30px;
+}
+.box2 h2{
+  padding-top: 30px;
+}
+.box1{
+  text-align: center;
+  font-size: large;
+  padding-left: 50px;
+  margin-bottom: 1500px;
+  margin-right: 200px;
+  color: #ccc;
+
+}
+.box1 h2{
+  font-size: 55px;
+}
+.box1 h4 {
+  font-size: 30px;
+}
+.box1 p{
+  font-size: 20px;
+  padding-left: 80px;
+}
+.jobs {
+  padding: 50px 0;
+  text-align: center;
+  height: 500px;
+}
+
+.jobs h2 {
+  font-size: 50px;
+  color: #f1e9e9;
+  padding-bottom: 30px;
+
+}
+.carousel{
+  overflow: hidden;
+  position: relative;
+}
+.carousel-images {
+  display: flex; /* Align images in a row */
+  animation: slide 17s linear infinite; /* Apply animation */
+  gap: 60px;
+  justify-content: space-between;
+}
+.carousel-images img {
+  width: 200px; /* Set image width */
+  height: 150px; /* Maintain aspect ratio */
+  justify-content: space-between;
+  height: 100px;
+  width: 200px;
+  flex: 1;
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); } 
+}
+.cours {
+  padding: 50px 0;
+ /* background-color: #007bff;  Background color for the section */
+  text-align: center;
+}
+.courses{
+  
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.course {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.course h3 {
+  font-size: 1.8rem;
+  color: #f9f1f1;
+}
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 120%;
+    align-items: center;
+  }
+  .card-item {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .card-item img {
+    width: 60px;
+    margin-bottom: 15px;
+    height: 100px;
+  }
+  .courses h2{
+    color: rgb(237, 223, 223);
+    padding-left: 500px;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .courses h3 {
+    color: #003399;
+    font-size: 18px;
+  } 
+  .courses p {
+    color: rgb(26, 24, 24);
+  }
+  @media (max-width: 768px) {
+    .card-item {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  .std-item img{
+    width: 180px;
+    height: 200px;
+    margin-bottom: 15px;
+    flex: 1;
+    margin-left: 50px;
+  }
+ .place h2{
+   font-size: 40px;
+   text-align: center;
+   color: #ccc;
+ }
+ .student{
+  
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  justify-content: space-between;
+  display: flex;
+ }
+ .std-item1 img{
+  width: 180px;
+  height: 200px;
+  flex: 1;
+  margin-left: 50px;
+  
+}
+.std-item2 img{
+  width: 180px;
+  height: 200px;
+  flex: 1;
+  margin-left: 50px;
+}
+.std-item3 img{
+  width: 180px;
+  height: 200px;
+  flex: 1;
+  margin-left: 50px;
+}
+.std-item4 img{
+  width: 180px;
+  height: 200px;
+  flex: 1;
+  margin-left: 50px;
+}
+.std-item5 img{
+  width: 180px;
+  height: 200px;
+  flex: 1;
+  margin-left: 50px;
+}
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=".vscode/style1.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sign In Form -->
+         <h2>Enroll the course</h2>
+        <div class="form-container" id="signIn">
+            <h3>Sign In</h3>
+            <form action="#">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+                <div class="toggle-link">
+                    <p>Don't have an account? <a href="#signUp">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sign Up Form -->
+        <div class="form-container" id="signUp">
+            <h3>Sign Up</h3>
+            <form action="#">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="tel" placeholder="Phone Number" required pattern="[0-9]{10}">
+                <button type="submit">Sign Up</button>
+                <div class="toggle-link">
+                    <p>Already have an account? <a href="#signIn">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

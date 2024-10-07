@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(https://media.istockphoto.com/id/1485759500/photo/contact-us-concept-with-wood-block-and-symbols-at-e-mail-address-and-phone.jpg?s=612x612&w=0&k=20&c=DxBwNnRCAZ3an1671vRJ-FtmeyJCpPW_xmai_lX19m8=);
+   background-size: cover;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(210, 220, 220, 0.1);
+    width: 400px;
+    margin-right: 200px;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+.contact-row img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    
+}
+  .contact-section h2{
+    margin-right: 550px;
+    color: rgb(21, 19, 19);
+    padding-bottom: -20;
+ 
+  }
+  .contact-row {
+    margin-right: 200px;
+    margin-left: 100px;
+   
+   
+  }
+  .contact-section p{
+    margin-right: 250px;
+    color: rgb(26, 24, 24);
+    font-weight: 800px;
+    padding-bottom: 20;
+ 
+  }
+  
+  
